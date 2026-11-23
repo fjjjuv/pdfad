@@ -1,0 +1,25 @@
+# PDFAD — PDF Agent Descriptor
+
+> Self-describing manifest embedded in a PDF — element index, design DNA, edit journal, engine capabilities — so AI agents understand the document without re-parsing it.
+
+PDFAD defines a self-describing manifest embedded inside a PDF (embedded file agent_manifest.json or XMP pdfad:manifest). A pdfadged document explains itself to agents: its element index, its Design DNA, its edit journal, and what an engine is allowed to do.
+
+Version 1.0 (Working Draft), Apache-2.0. Author: fjjjuv. Reference implementation: pdfbadger (https://github.com/fjjjuv/pdfbadger).
+
+## Documentation
+
+- [Overview](https://fjjjuv.github.io/pdfad/): what it is and why
+- [Specification](https://fjjjuv.github.io/pdfad/spec.html): full normative spec v1.0 (rendered)
+- [Specification source](https://github.com/fjjjuv/pdfad/blob/main/SPEC.md): raw markdown
+- [Examples](https://fjjjuv.github.io/pdfad/examples.html): worked example documents
+- [Full spec for LLMs](https://fjjjuv.github.io/pdfad/llms-full.txt): complete spec text
+
+## Related specifications
+
+- [PDFSP — PDF Scene Patch](https://github.com/fjjjuv/pdfsp): elements_index.id_scheme defines the ids PDFSP selectors use
+- [PDFDTP — Document Transaction Protocol](https://github.com/fjjjuv/pdfdtp): journal_head and capabilities reflect DTP journal/certificate state
+
+## Optional
+
+- [GitHub repository](https://github.com/fjjjuv/pdfad): source, issues, releases
+- [Release v1.0.0](https://github.com/fjjjuv/pdfad/releases/tag/v1.0.0)
