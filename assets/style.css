@@ -33,10 +33,11 @@ h1{font-family:var(--serif);font-size:clamp(2.2rem,5.5vw,3.4rem);line-height:1.0
 .term{background:#16130f;border-radius:14px;overflow:hidden;margin:24px 0;text-align:left}
 .term .bar{display:flex;gap:6px;padding:10px 14px;background:#241f19}
 .term .dot{width:10px;height:10px;border-radius:50%}
-pre{margin:0;padding:18px;overflow:auto;font-size:.85rem;line-height:1.55;color:#f3e9d8}
+pre{margin:0;padding:18px;overflow:auto;font-size:.85rem;line-height:1.55;color:#f3e9d8;background:#16130f;border:1px solid #3a332b;border-radius:12px}
 code,pre{font-family:var(--mono)}
 code{background:#efe9e2;padding:.15em .4em;border-radius:5px;font-size:.87em}
 pre code{background:none;padding:0}
+.term pre{background:none;border:none;border-radius:0}
 h2{font-family:var(--serif);font-size:1.7rem;margin:2.2em 0 .5em}
 .mut{color:var(--mut)}
 .tblwrap{overflow-x:auto}
