@@ -6,6 +6,7 @@
 <meta name="keywords" content="PDF, manifest, metadata, design system, AI agents, document descriptor, specification, pdfad">
 <meta name="author" content="fjjjuv">
 <meta name="robots" content="index,follow,max-image-preview:large">
+
 <link rel="canonical" href="https://fjjjuv.github.io/pdfad/">
 <meta property="og:type" content="article"><meta property="og:title" content="PDFAD — Specification v1.0">
 <meta property="og:description" content="Self-describing manifest embedded in a PDF — element index, design DNA, edit journal, engine capabilities — so AI agents understand the document without re-parsing it."><meta property="og:url" content="https://fjjjuv.github.io/pdfad/">
@@ -32,8 +33,6 @@ that an AI agent can understand the document's structure, design system
 and capabilities <em>without re-parsing</em> it.</p>
 <p>A "pdfadged" document explains itself to agents: its element index,
 its Design DNA, its edit journal, and what an engine is allowed to do.</p>
-<p>The reference implementation is
-<a href="https://github.com/fjjjuv/pdfbadger">pdfbadger</a>.</p>
 <h2 id="2-carrier">2. Carrier</h2>
 <p>The manifest is stored as a PDF <strong>embedded file</strong> (portable collection)
 named <code>agent_manifest.json</code>, or alternatively under an <code>XMP</code> packet
@@ -43,7 +42,7 @@ it survives naive viewers and is invisible to humans.</p>
 <pre><code class="language-json">{
   &quot;spec&quot;:     &quot;PDFAD/1.0&quot;,
   &quot;doc_id&quot;:   &quot;sha256:&lt;file-hash&gt;&quot;,
-  &quot;generator&quot;:&quot;pdfbadger/1.x&quot;,
+  &quot;generator&quot;:&quot;&lt;engine-name&gt;/&lt;version&gt;&quot;,
   &quot;created&quot;:  &quot;2026-11-22T15:00:00Z&quot;,
 
   &quot;dna&quot;: {

@@ -1,5 +1,5 @@
 
-const M={spec:"PDFAD/1.0",doc_id:"sha256:3a7f…",generator:"pdfbadger/1.0",created:"2026-11-22T15:00:00Z",
+const M={spec:"PDFAD/1.0",doc_id:"sha256:3a7f…",generator:"pdf-engine/1.0",created:"2026-11-22T15:00:00Z",
  dna:{fonts:{h1:{font:"helv",size:18,color:"#111111"},body:{font:"helv",size:11,color:"#333333"}},
       palette:["#1a5276","#000000","#8ba0cc","#db2777"],grid:{margins:[50,50,50,50],columns:1},rhythm:{spacing_scale:[8,12,16,24]}},
  elements_index:{pages:4,id_scheme:"e<base36(sha1(pos|style|text))>",stats:{tables:2,images:5,form_fields:0}},

@@ -16,9 +16,6 @@ and capabilities *without re-parsing* it.
 A "pdfadged" document explains itself to agents: its element index,
 its Design DNA, its edit journal, and what an engine is allowed to do.
 
-The reference implementation is
-[pdfbadger](https://github.com/fjjjuv/pdfbadger).
-
 ## 2. Carrier
 
 The manifest is stored as a PDF **embedded file** (portable collection)
@@ -32,7 +29,7 @@ it survives naive viewers and is invisible to humans.
 {
   "spec":     "PDFAD/1.0",
   "doc_id":   "sha256:<file-hash>",
-  "generator":"pdfbadger/1.x",
+  "generator":"<engine-name>/<version>",
   "created":  "2026-11-22T15:00:00Z",
 
   "dna": {
