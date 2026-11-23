@@ -16,8 +16,8 @@ Version 1.0 (Working Draft), Apache-2.0. Author: fjjjuv. Reference implementatio
 
 ## Related specifications
 
-- [PDFSP — PDF Scene Patch](https://github.com/fjjjuv/pdfsp): elements_index.id_scheme defines the ids PDFSP selectors use
-- [PDFDTP — Document Transaction Protocol](https://github.com/fjjjuv/pdfdtp): journal_head and capabilities reflect DTP journal/certificate state
+- [PDFSP — PDF Scene Patch](https://github.com/fjjjuv/pdfsp): elements_index.id_scheme defines the ids PDFSP selectors use.
+- [PDFDTP — Document Transaction Protocol](https://github.com/fjjjuv/pdfdtp): journal_head and capabilities reflect DTP journal/certificate state.
 
 ## Optional
 
