@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://fjjjuv.github.io/pdfad/sitemap.xml
